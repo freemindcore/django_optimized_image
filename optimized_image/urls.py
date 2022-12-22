@@ -1,8 +1,8 @@
-from django.conf.urls import url
+from django.urls import path
 
 from . import views
 
 
 urlpatterns = [
-    url(r'^optimized$', views.index, name='optimized_index'),
+    path(r'^optimized$', views.index, name='optimized_index'),
 ]
